@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+traces/
+traces.db
+data/eval_dataset.jsonl
+.env

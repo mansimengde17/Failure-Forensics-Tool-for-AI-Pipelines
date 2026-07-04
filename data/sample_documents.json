@@ -1,0 +1,16 @@
+{
+  "documents": [
+    {"id": "doc-01", "raw_text": "SERVICE AGREEMENT. This agreement is made 2026-01-15 between Acme Corp and Beta LLC, hereinafter the parties. The term of this agreement is 24 months under the governing law of Delaware. Total consideration: USD 120,000.00 payable per the clause in section 4. Signed by Priya Sharma and Diego Ortiz."},
+    {"id": "doc-02", "raw_text": "INVOICE #4411. Bill to: Gamma Industries. Amount due: $8,450.00. Payment terms: net 30. Date: Mar 4, 2026. Total includes support retainer."},
+    {"id": "doc-03", "raw_text": "Q2 FINDINGS REPORT. Our analysis of quarter metrics shows conversion up 12 percent. Summary of results: retention stable, churn improved. Prepared 2026-04-02 by Laura Chen."},
+    {"id": "doc-04", "raw_text": "Dear team, per our conversation, the onboarding flow needs revisions before the Apr 10, 2026 deadline. Regards, Maya Patel."},
+    {"id": "doc-05", "raw_text": "CONSULTING AGREEMENT between Delta Co and Epsilon Ltd. The parties agree to a clause-bound engagement, governing law of New York. No fixed dates are specified for deliverables. Fee: EUR 45,000."},
+    {"id": "doc-06", "raw_text": "INVOICE #5120 and quarterly analysis. Bill to: Zeta Corp. Amount due: $2,300.00. This document also contains a summary of results and metrics for the quarter, findings attached. Date: May 11, 2026."},
+    {"id": "doc-07", "raw_text": "Dear Ms. Alvarez, I am writing to confirm the renewal discussion scheduled for Jun 2, 2026. Sincerely, Tom Baker."},
+    {"id": "doc-08", "raw_text": "ANNUAL REPORT. Findings: revenue grew to $4,100,000.00 in fiscal 2025. Analysis of metrics shows margin expansion. Summary of results prepared 2026-02-20 by Finance."},
+    {"id": "doc-09", "raw_text": "MASTER SERVICES AGREEMENT dated 2026-03-01. The parties, hereinafter Vendor and Client, agree to the term and clause structure herein. Governing law: California. Value: USD 310,000.00. Signed by Alan Reyes."},
+    {"id": "doc-10", "raw_text": "Hi all, per our conversation, invoice #7788 with amount due $990.00 will be re-issued on Jul 1, 2026 with corrected payment terms. Bill to remains unchanged. Regards, Nina Brooks."},
+    {"id": "doc-11", "raw_text": "INCIDENT REPORT. Findings: the outage on 2026-05-30 lasted 42 minutes. Analysis shows a failed migration as the trigger. Summary of results and remediation metrics included. Author: Omar Haddad."},
+    {"id": "doc-12", "raw_text": "PURCHASE AGREEMENT. The parties Acme Corp and Theta GmbH agree, per the governing law clause, to a supply term of 12 months. Consideration: EUR 78,500.00 and USD 5,000.00 in setup fees. Executed Jun 20, 2026 by Sofia Marino."}
+  ]
+}
