@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Failure Forensics Tool for AI Pipelines | Live Demo</title>
-<meta name="description" content="When a multi-step pipeline produces garbage, this tool answers 'where did it go wrong?' in seconds: full span tracing, backward root cause analysis, and a growing eval dataset built from confirmed failures.">
+<meta name="description" content="When a multi step pipeline produces garbage, this tool answers 'where did it go wrong?' in seconds: full span tracing, backward root cause analysis, and a growing eval dataset built from confirmed failures.">
 <style>
 :root {
   --accent: #ff8a5c;
@@ -118,9 +118,9 @@ footer a { color: var(--accent); text-decoration: none; }
   </div>
 </nav>
 <header>
-  <div class="kicker">Observability for multi-step AI</div>
+  <div class="kicker">Observability for multi step AI</div>
   <h1>Failure Forensics Tool for AI Pipelines</h1>
-  <p class="tagline">When a multi-step pipeline produces garbage, this tool answers 'where did it go wrong?' in seconds: full span tracing, backward root cause analysis, and a growing eval dataset built from confirmed failures.</p>
+  <p class="tagline">When a multi step pipeline produces garbage, this tool answers 'where did it go wrong?' in seconds: full span tracing, backward root cause analysis, and a growing eval dataset built from confirmed failures.</p>
   <div class="cta">
     <a class="primary" href="#demo">Run the live demo</a>
     <a class="ghost" href="#architecture">Architecture</a>
@@ -142,11 +142,11 @@ footer a { color: var(--accent); text-decoration: none; }
   <h2>Architecture</h2>
   <p class="sub">How a request moves through the system.</p>
   <div class="arch">
-    <div class="step"><div class="n">1</div><div><b>Instrumented pipeline</b><p>A four-step document pipeline (intake, extraction, classification, summarization); each step is a typed function wrapped by a one-line tracing decorator.</p></div></div>
-    <div class="step"><div class="n">2</div><div><b>Span capture</b><p>Every span records input, output, prompt, raw response, tokens, latency, and the model&#x27;s self-reported confidence.</p></div></div>
+    <div class="step"><div class="n">1</div><div><b>Instrumented pipeline</b><p>A four step document pipeline (intake, extraction, classification, summarization); each step is a typed function wrapped by a one line tracing decorator.</p></div></div>
+    <div class="step"><div class="n">2</div><div><b>Span capture</b><p>Every span records input, output, prompt, raw response, tokens, latency, and the model&#x27;s self reported confidence.</p></div></div>
     <div class="step"><div class="n">3</div><div><b>Backward analyzer</b><p>On a flagged trace, each step&#x27;s output is scored as a transformation of its input, walking backward; the earliest quality drop is the root cause.</p></div></div>
     <div class="step"><div class="n">4</div><div><b>Failure taxonomy</b><p>extraction_hallucination, misclassification, propagation_error, prompt_failure, context_loss; every diagnosis carries an evidence chain with exact input/output quotes.</p></div></div>
-    <div class="step"><div class="n">5</div><div><b>Feedback-to-eval loop</b><p>Confirmed diagnoses become regression cases; re-running them tracks which known failures stay fixed.</p></div></div>
+    <div class="step"><div class="n">5</div><div><b>Feedback to eval loop</b><p>Confirmed diagnoses become regression cases; rerunning them tracks which known failures stay fixed.</p></div></div>
   </div>
 </section>
 
